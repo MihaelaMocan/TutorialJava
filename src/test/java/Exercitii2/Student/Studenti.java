@@ -4,6 +4,15 @@ import java.time.LocalDate;
 
 public class Studenti {
 
+
+    public String toString() {
+        String prop= "";
+
+        prop = getVarsta() + getNume();
+
+        return prop;
+    }
+
     //4.Student nume si anul nasterii
     public String nume;
     public int an;
@@ -26,4 +35,7 @@ public class Studenti {
         return anulCurent - an;
 
     }
+
+
+
 }

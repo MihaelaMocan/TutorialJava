@@ -41,6 +41,7 @@ public class Multimi {
     }
 
     public void afiseazaListaNumeMap() {
+
         HashMap<String, List<String>> listaNumeMap = new HashMap<>();
         List<String> oraseRomania = new ArrayList<>();
         oraseRomania.add("Cluj-Napoca");

@@ -8,7 +8,6 @@ public class Persoana {
     private String cnp;
 
 
-
     // Ca sa poata fie accesat o variabila privata se construisc gettere si settere
 
     public String getNume() {
@@ -35,6 +34,11 @@ public class Persoana {
     }
 
     public void setVarsta(int varsta) {
+
+        if(varsta< 1){
+            throw  new IllegalArgumentException("nui [pate fi mai mica decat 1");
+        }
+
         this.varsta=varsta;
     }
     public void setCnp(String cnp) {

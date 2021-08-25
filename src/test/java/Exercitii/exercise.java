@@ -1,5 +1,6 @@
 package Exercitii;
 
+import Exemple.Multimi;
 import org.junit.Test;
 
 import java.util.*;
@@ -8,6 +9,10 @@ public class exercise {
 
     @Test
     public void methodTest() {
+        Persoane pers1 = new Persoane("Mac", "Lana", "Tokyo", "Japan", 22, true);
+        String rep = pers1.toString();
+        System.out.println(rep);
+        System.out.println(pers1);
        /* NumereIntregi(3,2,11);
         numarNatural(5);
         determinaSuma(3);

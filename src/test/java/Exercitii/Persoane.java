@@ -43,12 +43,9 @@ public class Persoane {
     @Override
     public String toString() {
         return "Persoane{" +
-                "fname='" + fname + '\'' +
+                "fname=" + fname +
                 ", lname='" + lname + '\'' +
-                ", city='" + city + '\'' +
-                ", country='" + country + '\'' +
-                ", age=" + age +
-                ", sex=" + sex +
+
                 '}';
     }
 }
